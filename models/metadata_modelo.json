@@ -1,0 +1,30 @@
+{
+  "modelo": "Random Forest Classificator (Threshold 0.5)",
+  "target": "implementation_success",
+  "columnas_entrada": [
+    "department",
+    "process_name",
+    "monthly_volume",
+    "avg_minutes",
+    "manual_share",
+    "data_availability",
+    "process_complexity",
+    "annual_hours",
+    "automation_potential",
+    "recoverable_hours",
+    "estimated_annual_benefit",
+    "feasibility_score",
+    "log_annual_hours"
+  ],
+  "n_entrenamiento": 160,
+  "metricas_test": {
+    "f1": 0.62,
+    "roc_auc": 0.69
+  },
+  "hiperparametros": {
+    "n_estimators": 10,
+    "max_depth": 1
+  },
+  "sklearn_version": "1.6.1",
+  "python_version": "3.12.8"
+}
