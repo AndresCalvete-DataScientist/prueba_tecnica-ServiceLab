@@ -15,7 +15,6 @@ App con dos funciones:
 app.py                              # interfaz (Streamlit + Plotly)
 logic.py                            # lógica pura (carga, features, predicción, filtros)
 requirements.txt
-modelo_implementation_success.joblib   # el Random Forest ya entrenado
 encoder_categorico.joblib              # OrdinalEncoder de department/process_name,
                                         # ajustado sobre historical (no venía guardado
                                         # junto al modelo, así que se generó aparte)

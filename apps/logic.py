@@ -12,7 +12,7 @@ import pandas as pd
 
 # ---------------------------------------------------------------- rutas
 CARPETA = Path(__file__).parent
-RUTA_MODELO = "../models/modelo_implementation_success.joblib"
+RUTA_MODELO = CARPETA / "../models/modelo_implementation_success.joblib"
 RUTA_ENCODER = CARPETA / "encoder_categorico.joblib"
 RUTA_CATALOGO = CARPETA / "../data/outputs/2B_catalog_priorizado.csv"
 
